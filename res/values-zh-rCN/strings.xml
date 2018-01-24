@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">国美账号客户端</string>
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="weibo_login">微博登录</string>
+    <string name="reset_pwd">重置密码</string>
+    <string name="login_out">退出</string>
+    <string name="account_info">账号信息</string>
+    <string name="msg_login_out">您当前未登录</string>
+    <string name="msg_login_success">%1$s 登录成功 \n账号类型为：%2$s</string>
+    <string name="msg_login_fail">登录失败</string>
+    <string name="alert_already_login">您已经登录</string>
+    <string name="msg_already_login">您已经登录</string>
+    <string name="alert_login_time_out">登录超时,请重新登录!</string>
+    <string name="register_activity_title">用户注册</string>
+    <string name="register_result_activity_title">注册账号信息</string>
+    <string name="registerresult_activity_nickName">昵称:</string>
+    <string name="registerresult_activity_emailAddress">邮箱:</string>
+    <string name="registerresult_activity_phoneNum">手机:</string>
+    <string name="registerresult_activity_ok">确定</string>
+    <string name="alert_network_unavaiable">网路不可用!</string>
+	<string name="dialog_title_no_network">无网络连接，请检查网络设置!</string>
+	<string name="txt_set_network">设置网络</string>
+	<string name="txt_set_network_cancel">取消</string>
+</resources>

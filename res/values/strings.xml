@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">gome account client</string>
+    <string name="register">register</string>
+    <string name="login">Sign in</string>
+    <string name="weibo_login">weibo Sign in</string>
+    <string name="reset_pwd">reset password</string>
+    <string name="login_out">Sign out</string>
+    <string name="account_info">account information</string>
+    <string name="msg_login_out">You are not currently logged in</string>
+    <string name="msg_login_success">%1$s Login successful. \nAccount type is:%2$s</string>
+    <string name="msg_login_fail">Login failed</string>
+    <string name="alert_already_login">You are already logged in</string>
+    <string name="msg_already_login">You are already logged in</string>
+    <string name="alert_login_time_out">Login timeout, please login again!</string>
+    <string name="register_activity_title">User registration</string>
+    <string name="register_result_activity_title">Registered account information</string>
+    <string name="registerresult_activity_nickName">Nickname:</string>
+    <string name="registerresult_activity_emailAddress">Mailbox:</string>
+    <string name="registerresult_activity_phoneNum">Mobile phone:</string>
+    <string name="registerresult_activity_ok">Ok</string>
+	<string name="alert_network_unavaiable">Network unavailable!</string>
+	<string name="dialog_title_no_network">No network connection, please check the network settings!</string>
+	<string name="txt_set_network">set network</string>
+	<string name="txt_set_network_cancel">cancel</string>
+</resources>

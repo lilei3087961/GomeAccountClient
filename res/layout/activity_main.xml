@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_activity_backgound"
+    android:orientation="vertical"
+    android:padding="10dip"
+    tools:context=".MainActivity" >
+    <!--         android:background="#ff00ff" -->
+    <TextView 
+        android:id="@+id/txtInfo"
+       	android:layout_width="match_parent"
+        android:layout_height="50dip"
+
+        />
+	<Button
+	    android:id="@+id/btn_login" 
+	    android:layout_marginBottom="10dip"
+	    android:layout_marginLeft="20dip"
+		android:background="@drawable/btn_selector"
+		android:textColor="@color/button_text_color_normal"
+		android:textSize="@dimen/text_info_size"
+		android:layout_height="@dimen/button_default_height"
+	    android:layout_width="wrap_content"
+        android:text="@string/login"
+	    />
+
+	<Button
+	    android:layout_marginBottom="10dip"
+	    android:layout_marginLeft="20dip"
+	    android:id="@+id/btn_account_info" 
+		android:background="@drawable/btn_selector"
+		android:textColor="@color/button_text_color_normal"
+		android:textSize="@dimen/text_info_size"
+		android:layout_height="@dimen/button_default_height"
+	    android:layout_width="wrap_content"
+        android:text="@string/account_info"
+	    />
+	<Button
+	    android:visibility="gone"
+	    android:id="@+id/btnWeiboLogin" 
+	    android:layout_marginBottom="10dip"
+	    android:layout_marginLeft="20dip"
+		android:background="@drawable/btn_selector"
+		android:textColor="@color/button_text_color_normal"
+		android:textSize="@dimen/text_info_size"
+		android:layout_height="@dimen/button_default_height"
+	    android:layout_width="wrap_content"
+        android:text="@string/weibo_login"
+	    />
+</LinearLayout>
